@@ -7,9 +7,12 @@ Modern GUI for SQLite databases.
 
  * Download installer at the [website](http://yneves.com/atomic-sqlite/), install and enjoy.
 
- * Download zip on releases page and drop files into atom-shell's `resources/app` directory. Please note that node binary is necessary on PATH or atom-shell's root directory.
+ * Download zip on releases page and drop files into atom-shell's `resources/app` directory.
 
-NOTE: developed and tested with `atom-shell 0.13.0`.
+### Notes
+
+ * Node binary is necessary on PATH or atom-shell's root directory.
+ * Developed and tested with `atom-shell 0.13.0`.
 
 ## Contribute
 
