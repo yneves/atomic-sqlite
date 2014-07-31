@@ -1,0 +1,44 @@
+{
+	"nodeService": "db/db-service.js",
+	"exeIcon": "src/app.ico",
+	"exeName": "Atomic SQLite",
+	"buildIgnore": [
+		"uid",
+		"pid",
+		"db/db-error.txt",
+		"db/db-port",
+		"db/db.sqlite",
+		"src/ui/user-prefs.json"
+	],
+	"devFiles": [
+		"src/dev.js"
+	],
+	"files": [
+		"lib/codemirror/lib/codemirror.css",
+		"lib/codemirror/theme/solarized.css",
+		"lib/codemirror/theme/pastel-on-dark.css",
+		["lib/codemirror/lib/codemirror.js","CodeMirror"],
+		"lib/codemirror/mode/sql/sql.js",
+		"lib/codemirror/codemirror.js",
+		"lib/octicons/octicons.css",
+		"src/ui.css",
+		["lib/event/EventEmitter.js","EventEmitter"],
+		["lib/bluebird/bluebird-2.2.2.js","Promise"],
+		["lib/jquery/jquery-2.1.0.js","jQuery","$"],
+		"lib/jquery/focusable.js",
+		"lib/jquery/resizer.js",
+		["lib/react/react.js","React"],
+		"lib/react/JSXTransformer.js",
+		"lib/atomic/atomic.js",
+		"lib/reactor/reactor.js",
+		"lib/reactor/addons.js",
+		"lib/reactor/components.jsx",
+		"src/ai.js",
+		"src/ua.js",
+		"src/ui/components.js",
+		"src/ui/prefs.js",
+		"src/ui/texts.js",
+		"src/ui/menus.js",
+		"src/ui.jsx"
+	]
+}

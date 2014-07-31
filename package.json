@@ -1,0 +1,23 @@
+{
+	"name": "atomic-sqlite",
+	"version": "0.1.0",
+	"productName": "Atomic SQLite",
+	"description": "SQLite Graphic Interface.",
+	"keywords": ["sqlite","database","atom","gui"],
+	"license": "MIT",
+	"homepage": "https://github.com/yneves/atomic-sqlite",
+	"author": {
+		"name": "Yuri Neves Silveira",
+		"url": "http://yneves.com/",
+		"email": "npm@yneves.com"
+	},
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/yneves/atomic-sqlite.git"
+	},
+	"dependencies": {
+		"bauer-db": ">=0.1.0",
+		"bauer-sql": ">=1.1.0"
+	},
+	"main": "atomic.js"
+}

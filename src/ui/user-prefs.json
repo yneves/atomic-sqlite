@@ -1,0 +1,25 @@
+{
+  "view": {
+    "areaTables": true,
+    "areaColumns": true,
+    "areaIndexes": true,
+    "areaViews": true,
+    "areaTriggers": true,
+    "areaPragmas": true,
+    "history": true
+  },
+  "size": {
+    "side": "20.33%",
+    "main": "79.67%",
+    "query": "61.12%",
+    "result": "38.88%",
+    "write": "70.28%",
+    "history": "29.72%",
+    "areaTables": "21.21%",
+    "areaColumns": "19.29%",
+    "areaIndexes": "19.44%",
+    "areaViews": "11.93%",
+    "areaTriggers": "11.34%",
+    "areaPragmas": "16.79%"
+  }
+}

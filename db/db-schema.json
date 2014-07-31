@@ -1,0 +1,32 @@
+{
+	"tables": {
+		"database": {
+			"fields": {
+				"id": "INTEGER PRIMARY KEY",
+				"path": "TEXT",
+				"name": "TEXT",
+				"pinned": "INTEGER"
+			}
+		},
+		"history": {
+			"fields": {
+				"id": "INTEGER PRIMARY KEY",
+				"database": "INTEGER",
+				"timestamp": "INTEGER",
+				"query": "TEXT"
+			}
+		},
+		"editor": {
+			"fields": {
+				"id": "INTEGER PRIMARY KEY",
+				"database": "INTEGER",
+				"content": "TEXT"
+			}
+		}
+	},
+	"indexes": {
+		"database_path": "database.path",
+		"history_db": "history.database",
+		"editor_db": "editor.database"
+	}
+}
